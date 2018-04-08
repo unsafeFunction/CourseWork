@@ -1,4 +1,6 @@
-    let needle = require('needle');
+
+
+let needle = require('needle');
     let cheerio = require('cheerio');
     let URL = 'http://www.nbrb.by/statistics/rates/ratesdaily.asp';
     let json = [],id=0,$;
@@ -19,6 +21,7 @@
                             oneCount:countOne,
                             currentCourse:currentCourse
                         });
+
                 require('fs').writeFileSync('./data.json', JSON.stringify(json, null, 6));
             });
     });
