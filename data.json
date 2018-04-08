@@ -4,181 +4,181 @@
             "valueName": "Австралийский доллар",
             "name": "AUD",
             "oneCount": "1",
-            "currentCourse": "1,5091"
+            "currentCourse": "1.5091"
       },
       {
             "id": 2,
             "valueName": "Болгарский лев",
             "name": "BGN",
             "oneCount": "1",
-            "currentCourse": "1,2292"
+            "currentCourse": "1.2292"
       },
       {
             "id": 3,
             "valueName": "Гривен",
             "name": "UAH",
-            "oneCount": "100",
-            "currentCourse": "7,5498"
+            "oneCount": 1,
+            "currentCourse": 0.07549800000000001
       },
       {
             "id": 4,
             "valueName": "Датских крон",
             "name": "DKK",
-            "oneCount": "10",
-            "currentCourse": "3,2283"
+            "oneCount": 1,
+            "currentCourse": 0.32283
       },
       {
             "id": 5,
             "valueName": "Доллар США",
             "name": "USD",
             "oneCount": "1",
-            "currentCourse": "1,9637"
+            "currentCourse": "1.9637"
       },
       {
             "id": 6,
             "valueName": "Евро",
             "name": "EUR",
             "oneCount": "1",
-            "currentCourse": "2,4007"
+            "currentCourse": "2.4007"
       },
       {
             "id": 7,
             "valueName": "Злотых",
             "name": "PLN",
-            "oneCount": "10",
-            "currentCourse": "5,7224"
+            "oneCount": 1,
+            "currentCourse": 0.5722400000000001
       },
       {
             "id": 8,
             "valueName": "Иранских риалов",
             "name": "IRR",
-            "oneCount": "100000",
-            "currentCourse": "5,1924"
+            "oneCount": 1,
+            "currentCourse": 0.000051924
       },
       {
             "id": 9,
             "valueName": "Исландских крон",
             "name": "ISK",
-            "oneCount": "100",
-            "currentCourse": "1,9787"
+            "oneCount": 1,
+            "currentCourse": 0.019787
       },
       {
             "id": 10,
             "valueName": "Йен",
             "name": "JPY",
-            "oneCount": "100",
-            "currentCourse": "1,8290"
+            "oneCount": 1,
+            "currentCourse": 0.01829
       },
       {
             "id": 11,
             "valueName": "Канадский доллар",
             "name": "CAD",
             "oneCount": "1",
-            "currentCourse": "1,5370"
+            "currentCourse": "1.5370"
       },
       {
             "id": 12,
             "valueName": "Китайских юаней",
             "name": "CNY",
-            "oneCount": "10",
-            "currentCourse": "3,1144"
+            "oneCount": 1,
+            "currentCourse": 0.31144
       },
       {
             "id": 13,
             "valueName": "Кувейтский динар",
             "name": "KWD",
             "oneCount": "1",
-            "currentCourse": "6,5410"
+            "currentCourse": "6.5410"
       },
       {
             "id": 14,
             "valueName": "Молдавских леев",
             "name": "MDL",
-            "oneCount": "10",
-            "currentCourse": "1,1988"
+            "oneCount": 1,
+            "currentCourse": 0.11988000000000001
       },
       {
             "id": 15,
             "valueName": "Новозеландский доллар",
             "name": "NZD",
             "oneCount": "1",
-            "currentCourse": "1,4235"
+            "currentCourse": "1.4235"
       },
       {
             "id": 16,
             "valueName": "Норвежских крон",
             "name": "NOK",
-            "oneCount": "10",
-            "currentCourse": "2,5099"
+            "oneCount": 1,
+            "currentCourse": 0.25099
       },
       {
             "id": 17,
             "valueName": "Российских рублей",
             "name": "RUB",
-            "oneCount": "100",
-            "currentCourse": "3,3945"
+            "oneCount": 1,
+            "currentCourse": 0.033944999999999996
       },
       {
             "id": 18,
             "valueName": "СДР (Специальные права заимствования)",
             "name": "XDR",
             "oneCount": "1",
-            "currentCourse": "2,8497"
+            "currentCourse": "2.8497"
       },
       {
             "id": 19,
             "valueName": "Сингапурcкий доллар",
             "name": "SGD",
             "oneCount": "1",
-            "currentCourse": "1,4901"
+            "currentCourse": "1.4901"
       },
       {
             "id": 20,
             "valueName": "Сомов",
             "name": "KGS",
-            "oneCount": "100",
-            "currentCourse": "2,8688"
+            "oneCount": 1,
+            "currentCourse": 0.028687999999999998
       },
       {
             "id": 21,
             "valueName": "Тенге",
             "name": "KZT",
-            "oneCount": "1000",
-            "currentCourse": "6,1405"
+            "oneCount": 1,
+            "currentCourse": 0.0061405
       },
       {
             "id": 22,
             "valueName": "Турецких лир",
             "name": "TRY",
-            "oneCount": "10",
-            "currentCourse": "4,8436"
+            "oneCount": 1,
+            "currentCourse": 0.48436
       },
       {
             "id": 23,
             "valueName": "Фунт стерлингов",
             "name": "GBP",
             "oneCount": "1",
-            "currentCourse": "2,7520"
+            "currentCourse": "2.7520"
       },
       {
             "id": 24,
             "valueName": "Чешских крон",
             "name": "CZK",
-            "oneCount": "100",
-            "currentCourse": "9,4828"
+            "oneCount": 1,
+            "currentCourse": 0.094828
       },
       {
             "id": 25,
             "valueName": "Шведских крон",
             "name": "SEK",
-            "oneCount": "10",
-            "currentCourse": "2,3373"
+            "oneCount": 1,
+            "currentCourse": 0.23373
       },
       {
             "id": 26,
             "valueName": "Швейцарский франк",
             "name": "CHF",
             "oneCount": "1",
-            "currentCourse": "2,0396"
+            "currentCourse": "2.0396"
       }
 ]

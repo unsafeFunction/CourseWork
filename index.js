@@ -13,7 +13,11 @@ let needle = require('needle');
             let nameOfValue = a.next().next().text();
             let currentCourse = a.next().next().next().text();
             currentCourse = devideValue(currentCourse);
-                        id++;
+            if(parseInt(countOne)>1){
+                currentCourse=divideCountOfValue(currentCourse,countOne);
+                countOne = 1;
+            }
+                         id++;
                         json.push({
                             id: id,
                             valueName:nameOfValue,
@@ -24,15 +28,23 @@ let needle = require('needle');
 
                 require('fs').writeFileSync('./data.json', JSON.stringify(json, null, 6));
             });
+
     });
+    function divideCountOfValue(currentCourse,countOne){
+       return parseFloat(currentCourse/countOne);
+    }
     function devideValue(currentCourse) {
         let arrayForNewValue = [];
         let finalValue;
         let tempCurrent = currentCourse.split("");
-        let currentArray = ['1','2','3','4','5','6','7','8','9','0',','];
+        for(let i=0;i<tempCurrent.length;i++){
+            if(tempCurrent[i]===',')tempCurrent[i]='.'
+        }
+        let currentArray = ['1','2','3','4','5','6','7','8','9','0','.'];
         for(let i=0;i<tempCurrent.length;i++){
             for(let j=0;j<currentArray.length;j++){
                 if(tempCurrent[i]===currentArray[j]){
+
                     arrayForNewValue.push(tempCurrent[i])
                 }
             }
